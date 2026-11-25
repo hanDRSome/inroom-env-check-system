@@ -1,0 +1,5 @@
+# Build output
+build/
+
+# CMake 同步到根目录的编译数据库（生成物，供 clangd 使用）
+/compile_commands.json

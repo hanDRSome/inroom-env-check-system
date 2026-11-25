@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "J-Link Debug",
+            "type": "cortex-debug",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "executable": "${workspaceFolder}/build/Debug/${workspaceFolderBasename}.elf",
+            "servertype": "jlink",
+            "device": "STM32F103C8",
+            "interface": "swd",
+            "preLaunchTask": "Build",
+            "runToEntryPoint": "main"
+        }
+    ]
+}
